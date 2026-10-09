@@ -25,6 +25,7 @@ for ($i = 0; $i < $quantity; $i++) {
     $current *= $multiplier;
 }
 ?>
+
 <h3>Задание 2</h3>
 <?php
 $lastNumber = 10;
@@ -39,6 +40,7 @@ for ($i = 1; $i <= $lastNumber; $i++) {
 
 echo "Сумма чисел от 1 до $lastNumber = $sum"; 
 ?>
+
 <h3>Задание 3</h3>
 <?php
 $lastNumber = 10;
@@ -55,10 +57,11 @@ for ($i = 1; $i <= $lastNumber; $i++) {
 
 echo "Произведение чётных чисел от 1 до $lastNumber = $multiplicationResult";
 ?>
+
 <h3>Задание 4</h3>
 <?php
-$n = 7;                  // количество дней
-$dailyDistance = 10;     // первый день
+$n = 7;                
+$dailyDistance = 10;     
 $totalDistance = 0;
 
 echo "Исходные данные:\n<br>";
@@ -73,6 +76,7 @@ for ($day = 1; $day <= $n; $day++) {
 
 echo "Суммарный путь за $n дней = " . round($totalDistance, 2) . " км";
 ?>
+
 <h3>Задание 5</h3>
 <?php
 $totalLegs = 64;
@@ -92,5 +96,5 @@ for ($rabbits = 0; $rabbits <= $totalLegs / 4; $rabbits++) {
         echo "Кроликов: $rabbits, <br> Гусей: $geese\n<br>";
     }
 }
-?>
-</body>
+?> 
+</body> 
