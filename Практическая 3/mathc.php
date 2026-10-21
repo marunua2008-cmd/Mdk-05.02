@@ -44,3 +44,10 @@ $c = 90;
 $d = 180 - $a - $c;
  
 ?>
+<h2>match</h2>
+<h3>Задание 1</h3>
+<?php
+$a = 3;
+$res = match($a) {
+0 => 'zero' , 1 => 'one' , 2 => 'two' , 3 => 'three' ,  4 => 'four' , 5 =>  'five' , 6 => 'six' , 7 =>  'seven' , 8 => 'ei'
+};
