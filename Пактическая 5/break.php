@@ -43,7 +43,8 @@ for($i = 1; $i <= 9; $i++){
     echo "</tr>"; 
 echo '</table>'; 
 ?>
-</body>
+
+
 <h3>Задача 4</h3>
 <?php
 echo "<table border='1' cellpadding='5' cellspacing='0'>";
@@ -69,6 +70,8 @@ echo "</table>";
 <?php
 $a = 6; 
 $b = 4; 
+
+echo "<h3>Прямоугольник с контуром</h3>";
 echo "<pre>";
 for ($i = 1; $i <= $b; $i++) {
     for ($j = 1; $j <= $a; $j++) {
@@ -83,4 +86,7 @@ for ($i = 1; $i <= $b; $i++) {
 }
 echo "</pre>";
 ?>
+
+
 </body>
+
